@@ -7,33 +7,33 @@ googleAnalytics = ""
 
 [params]
     author = "y.06"
-    description = "Personal blog theme powered by Hugo"
+    description = ""
     githubUsername = "#"
-    accent = "red"
-    showBorder = true
-    backgroundColor = "white"
-    font = "Raleway" # should match the name on Google Fonts!
+    accent = "#CE173C"
+    showBorder = false
+    backgroundColor = "#151515"
+    font = "Work Sans" # should match the name on Google Fonts!
     highlight = true
     highlightStyle = "solarized-dark"
     highlightLanguages = ["go", "haskell", "kotlin", "scala", "swift"]
 
 [[menu.main]]
     url = "/"
-    name = "Home"
+    name = "HOME"
     weight = 1
 
 [[menu.main]]
-    url = "/post/"
+    url = "#"	# using target like: url = "/works/"
     name = "WORKS"
     weight = 2
 
 [[menu.main]]
-    url = "/project/"
+    url = "#"
     name = "ABOUT US"
     weight = 3
 
 [[menu.main]]
-    url = "/project/"
+    url = "#"
     name = "CONTACT"
     weight = 4
 

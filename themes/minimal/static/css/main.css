@@ -29,12 +29,13 @@ main {
 }
 
 .intro > h1 {
-    color: #212121;
-    font-size: 12vh;
+    color: #9A9A9A;
+    font-size: 2vh;
+    display: none;
 }
 
 .intro > h2 {
-    color: #757575;
+    color: #747373;
     font-size: 3vmin;
 }
 
@@ -48,6 +49,8 @@ main {
 
 a:link, a:visited {
     color: var(--accent);
+    letter-spacing: 6px;
+    line-height: 30px !important;
 }
 
 a.icon:hover {
@@ -87,12 +90,30 @@ a:hover {
 
 /*coloured borders at top and bottom of the page*/
 
+.navbar {
+    display: none !important;
+}
+
+.navbar-header {
+    border: none;
+}
+
 .navbar.navbar-default {
-    border-top: var(--border-width) solid var(--accent);
+    border: none !important;
+    background-color: #151515;
+}
+
+.navbar-collapse {
+    border: none !important;
+}
+
+div.navbar-collapse.collapse.in {
+    border: none !important;
 }
 
 footer {
     border-bottom: var(--border-width) solid var(--accent);
+    display: none !important;
 }
 
 img {
