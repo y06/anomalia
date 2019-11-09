@@ -20,7 +20,6 @@ draft: false
 <form name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field" action="/thanks/">
 <p class="hidden">
 	<label>Don’t fill this out if you're human: <input name="bot-field" /></label>
-	<input type="hidden" name="form-name" value="contact" />
 </p>
 <p>
 	<input type="text" name="name" placeholder="Name:" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Your Name:'" required={true} />
