@@ -17,7 +17,7 @@ draft: false
 </ul>
 
 <div class="contactform">
-<form name="contact" method="POST" data-netlify="true" action="/thanks/" netlify-honeypot="bot-field">
+<form name="contact" method="POST" netlify-honeypot="bot-field" action="/thanks/" netlify>
 <p class="hidden">
 	<label>Don’t fill this out if you're human: <input name="bot-field" /></label>
 </p>
