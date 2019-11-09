@@ -28,7 +28,7 @@ draft: false
 	<input type="email" name="email" placeholder="E-mail:" onfocus="this.placeholder = ''" onblur="this.placeholder = 'E-mail:'" required/>
 </p>
 <p>
-	<textarea name="message" placeholder="Message:" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Message:'" required></textarea>
+	<textarea name="message" placeholder="Message:" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Message:'"></textarea>
 	<button type="submit">send<i class="fa fa-paper-plane"></i></button>
 </p>
 
