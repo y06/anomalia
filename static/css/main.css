@@ -490,6 +490,7 @@ img {
 
 .contactform textarea {
     min-height: 8rem;
+    font-family: Source Code Pro !important;
 }
 
 .contactform p {
@@ -605,7 +606,7 @@ footer {
 
 .footer-container {
     margin: 1rem 4rem 3rem 4rem;
-    padding: 0.2rem 0;
+    padding: 1rem 0 3rem 0;
 }
 
 footer p {
