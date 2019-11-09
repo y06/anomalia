@@ -17,7 +17,7 @@ draft: false
 </ul>
 
 <div class="contactform">
-<form name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field" action="/thanks/" data-netlify-recaptcha="true">
+<form name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field" action="/thanks/">
 <p class="hidden">
 	<label>Don’t fill this out if you're human: <input name="bot-field" /></label>
 </p>
@@ -31,8 +31,6 @@ draft: false
 	<textarea name="message" placeholder="Message:" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Message:'"></textarea>
 	<button type="submit">send<i class="fa fa-paper-plane"></i></button>
 </p>
-
-<div data-netlify-recaptcha="true"></div>
 
 </form>
 </div>
