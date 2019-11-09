@@ -22,10 +22,10 @@ draft: false
 	<label>Don’t fill this out if you're human: <input name="bot-field" /></label>
 </p>
 <p>
-	<input type="text" name="name" placeholder="Name:" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Your Name:'" required/>
+	<input type="text" name="name" placeholder="Name:" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Your Name:'" />
 </p>
 <p>
-	<input type="email" name="email" placeholder="E-mail:" onfocus="this.placeholder = ''" onblur="this.placeholder = 'E-mail:'" required/>
+	<input type="email" name="email" placeholder="E-mail:" onfocus="this.placeholder = ''" onblur="this.placeholder = 'E-mail:'" />
 </p>
 <p>
 	<textarea name="message" placeholder="Message:" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Message:'"></textarea>
