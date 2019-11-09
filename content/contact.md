@@ -17,20 +17,16 @@ draft: false
 </ul>
 
 <div class="contactform">
-<form name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field" action="/thanks/">
-<p class="hidden">
-	<label>Don’t fill this out if you're human: <input name="bot-field" /></label>
+<form name="contact" method="POST" action="/thanks/" netlify>
+<p>
+	<input type="text" name="name" placeholder="Name:" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Your Name:'" required/>
 </p>
 <p>
-	<input type="text" name="name" placeholder="Name:" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Your Name:'" />
+	<input type="email" name="email" placeholder="E-mail:" onfocus="this.placeholder = ''" onblur="this.placeholder = 'E-mail:'" required/>
 </p>
 <p>
-	<input type="email" name="email" placeholder="E-mail:" onfocus="this.placeholder = ''" onblur="this.placeholder = 'E-mail:'" />
-</p>
-<p>
-	<textarea name="message" placeholder="Message:" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Message:'"></textarea>
+	<textarea name="message" placeholder="Message:" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Message:'" required></textarea>
 	<button type="submit">send<i class="fa fa-paper-plane"></i></button>
 </p>
-
 </form>
 </div>
