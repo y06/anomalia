@@ -1,7 +1,7 @@
 baseURL = "https://anomalia.sk/"
 languageCode = "en-us"
 title = "We are bottomless repository of magnificent ideas"
-googleAnalytics = ""
+googleAnalytics = "UA-151911987-1"
 
 [params]
     author = "y.06"
