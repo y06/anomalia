@@ -9,10 +9,11 @@ googleAnalytics = "UA-151911987-1"
     accent = "#CE173C"
     showBorder = false
     font = "Work Sans"
-    highlight = true
-    highlightStyle = "solarized-dark"
-    highlightLanguages = ["go", "haskell", "kotlin", "scala", "swift"]
 
+
+[params.favicon]
+    enable = true
+    path = "/favicon"  
 
 [[menu.main]]
     url = "/works/"
