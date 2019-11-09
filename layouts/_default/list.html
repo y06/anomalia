@@ -1,0 +1,16 @@
+{{ partial "header" . }}
+{{ partial "favicon" . }}
+
+<main>
+
+	<div class="singlebgr">{{ partial "background-svg" . }}</div>
+
+    <h2>{{ .Title }}</h2>
+
+    {{ range (.Paginator 5).Pages }} {{ partial "list-item" . }} {{ end }}
+
+</main>
+
+{{ partial "paginator" . }}
+
+{{ partial "footer" . }}

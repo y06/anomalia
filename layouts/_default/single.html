@@ -1,0 +1,20 @@
+{{ partial "header" . }}
+{{ partial "favicon" . }}
+
+<main>
+
+	<div class="singlebgr">{{ partial "background-svg" . }}</div>
+
+    <h2>{{ .Title }}</h2>
+
+    <div class="works_tags">
+	{{ range .Params.tags }}
+    <a href="{{ $.Site.BaseURL }}tags/{{ . | urlize }}"><ul><li><kbd class="item-tag">{{ . }}</kbd></li></ul></a>
+	{{ end }}
+	</div>
+
+    <br> <div class="text-justify">{{ .Content }}</div>
+
+</main>
+
+{{ partial "footer" . }}
